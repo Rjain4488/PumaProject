@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-19T12:44:53Z" name="Default suite" finished-at="2021-08-19T12:45:00Z" duration-ms="6611">
+    <groups>
+    </groups>
+    <test started-at="2021-08-19T12:44:53Z" name="Default test" finished-at="2021-08-19T12:45:00Z" duration-ms="6611">
+      <class name="tests.TestBlazeDemo">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:tests.TestBlazeDemo@45a37759]" started-at="2021-08-19T12:44:53Z" name="invokeBrowser" finished-at="2021-08-19T12:44:57Z" duration-ms="3573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="verifyFlightBooking()[pri:0, instance:tests.TestBlazeDemo@45a37759]" started-at="2021-08-19T12:44:57Z" name="verifyFlightBooking" finished-at="2021-08-19T12:45:00Z" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightBooking -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.TestBlazeDemo@45a37759]" started-at="2021-08-19T12:45:00Z" name="cleanUp" finished-at="2021-08-19T12:45:00Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.TestBlazeDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

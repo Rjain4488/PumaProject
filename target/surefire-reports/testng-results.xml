@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-19T12:51:37Z" name="Surefire suite" finished-at="2021-08-19T12:51:49Z" duration-ms="11737">
+    <groups>
+    </groups>
+    <test started-at="2021-08-19T12:51:37Z" name="Surefire test" finished-at="2021-08-19T12:51:49Z" duration-ms="11737">
+      <class name="tests.SpaceXapiTest">
+        <test-method signature="getStatusCode()[pri:2, instance:tests.SpaceXapiTest@18078bef]" started-at="2021-08-19T12:51:40Z" name="getStatusCode" finished-at="2021-08-19T12:51:44Z" duration-ms="3547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method signature="getSpecificIdLaunchDetail()[pri:3, instance:tests.SpaceXapiTest@18078bef]" started-at="2021-08-19T12:51:44Z" name="getSpecificIdLaunchDetail" finished-at="2021-08-19T12:51:46Z" duration-ms="2110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpecificIdLaunchDetail -->
+      </class> <!-- tests.SpaceXapiTest -->
+      <class name="tests.TestBlazeDemo">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:tests.TestBlazeDemo@799f10e1]" started-at="2021-08-19T12:51:37Z" name="invokeBrowser" finished-at="2021-08-19T12:51:40Z" duration-ms="2846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="verifyTitleOfHomePage()[pri:1, instance:tests.TestBlazeDemo@799f10e1]" started-at="2021-08-19T12:51:40Z" name="verifyTitleOfHomePage" finished-at="2021-08-19T12:51:40Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfHomePage -->
+        <test-method signature="verifyFlightBooking()[pri:4, instance:tests.TestBlazeDemo@799f10e1]" started-at="2021-08-19T12:51:46Z" name="verifyFlightBooking" finished-at="2021-08-19T12:51:49Z" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightBooking -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.TestBlazeDemo@799f10e1]" started-at="2021-08-19T12:51:49Z" name="cleanUp" finished-at="2021-08-19T12:51:49Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.TestBlazeDemo -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
